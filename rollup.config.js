@@ -43,7 +43,7 @@ export default [{
     nodeResolve(),
     postcss({
       plugins: [],
-      extract: true
+      extract: false
     })
   ]
 } /* {
